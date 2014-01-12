@@ -1,1 +1,87 @@
-Hello World!
+---
+layout: default
+title: 周凡君の个人站
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-7 col-md-offset-1 minus-height front-page-left">
+			<ul class="nav nav-tabs nav-justified">
+				<li class="active catalog-font"><a href="#Blog" data-toggle="tab">Blog</a></li>
+				<li class="catalog-font"><a href="#Archives" data-toggle="tab">Archives</a></li>
+				<li class="catalog-font"><a href="#Projects" data-toggle="tab">Projects</a></li>
+			</ul>
+
+			<div class="tab-content pane-spacing">
+				<div class="tab-pane fade in active" id="Blog">
+					{% for post in site.posts %}
+						<div class="panel panel-default">
+							<div class="panel-heading"><a href="{{ post.url }}" >{{ post.title }}</a></div>
+							<div class="panel-body">{{ post.description }}</div>
+						</div>
+						
+					{% endfor %}
+				</div>
+				<div class="tab-pane fade" id="Archives">
+					{% for post in site.posts %}
+			            {% unless post.next %}
+			                <h3>{{ post.date | date: '%Y' }}</h3>
+			            {% else %}
+			                {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+			                {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+			                {% if year != nyear %}
+			                    <h3 class="">{{ post.date | date: '%Y' }}</h3>
+			                {% endif %}
+			            {% endunless %}
+
+			            <div class="line">
+			            	<div class="line-left"><a href="{{ post.url }}">{{ post.title }}</a></div>
+			            	<div class="line-right"><span>{{ post.date | date: '%m 月 %d 日' }}</span></div>
+			            </div>
+			            
+			            
+			            <br>
+			        {% endfor %}
+				</div>
+				<div class="tab-pane fade" id="Projects">
+
+				</div>
+			</div>
+
+		</div>
+		{% assign logo = '<img class="avatar-logo" src="http://zhoufan.qiniudn.com/goodboy.jpg" alt="zhoufan.org" />' %}
+		{% assign LinedInlogo =  %}
+		<div class="col-md-3 col-md-offset-1 minus-height front-page-right">
+			<div>
+				{{ logo }}  <span class="zhoufan-name">周凡</span>
+			</div>
+			<hr>
+			<p>
+				I’m ZhouFan, a coder working for AsiaInfo-Linkage. You can find me on a variety of web sites listed blow.
+				<br>
+				I live in & ♥ Nanjing. 
+			</p>
+			<hr>
+			<div>
+				<p class="view">
+					<a href="http://weibo.com/zhoufan2011" title="Weibo">Weibo<br><small>A good way to contact</small></a>
+				</p>
+				<p class="view">
+					<a href="https://github.com/zhoufan2013" title="GitHub">GitHub<br><small>If coding is your thing</small></a>
+				</p>
+				<p class="view">
+					<a href="http://cn.linkedin.com/pub/zhou-fan/54/4aa/238/" title="LinkedIn">LinkedIn<br><small>Profession</small></a>
+				</p>
+				<p class="view">
+					<a href="mailto:scholes17@gmail.com" title="Gmail">Gmail<br><small>Email me</small></a>
+				</p>
+			</div>
+			
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	
+</script>

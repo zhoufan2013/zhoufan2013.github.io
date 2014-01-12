@@ -1,0 +1,27 @@
+# ---------------------- #
+#      Site Configs      #
+# ---------------------- #
+author: ZhouFan
+name: zhoufan.org
+url: http://zhoufan2013.github.io/
+title: 周凡君の个人站
+
+# ---------------------- #
+#         Jekyll         #
+# ---------------------- #
+markdown: rdiscount
+pygments: true
+paginate: 10
+permalink: pretty
+feed: /atom.xml
+timezone: Asia/Shanghai
+author_info: <a href="http://zhoufan2013.github.io/">zhoufan</a>
+
+# ---------------------- #
+#    Social Networks     #
+# ---------------------- #
+weibo: 周凡
+
+github: zhoufan2013
+
+LinkedIn: Zhou Fan

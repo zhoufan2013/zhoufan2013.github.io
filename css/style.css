@@ -1,0 +1,350 @@
+/*
+Author: Zhou Fan
+Author URI: http://zhoufan.org
+Version: 1.0
+Tags: responsive, bootstrap
+ 
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+/* 导航栏标题 */
+.navbar-inverse .navbar-brand{
+	color: #fff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #d33e3e;
+  text-shadow: 0 1px #333;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s
+}
+
+/* nav-menu 链接 */
+.navbar-inverse .navbar-nav > li > a{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  	color: #d33e3e;
+  	text-shadow: 0 1px #333;
+  	-webkit-transition: color 0.4s;
+  	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	transition: color 0.4s
+}
+
+/* active 激活状态 */
+.navbar-inverse .navbar-nav > .active > a{
+	background-color: #563d7c;
+}
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: #563d7c;
+  	color: #d33e3e;
+  	text-shadow: 0 1px #333;
+  	-webkit-transition: color 0.4s;
+  	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	transition: color 0.4s
+}
+
+/* caret 插入小角标 */
+.navbar-inverse .navbar-nav>.dropdown>a .caret{
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret ,
+.navbar-inverse .navbar-nav > .dropdown > a:focus .caret {
+  	border-top-color: #d33e3e;
+  	border-bottom-color: #d33e3e;
+  	-webkit-transition: color 0.4s;
+  	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	transition: color 0.4s
+}
+
+/* navbar-nav 被选中状态 */
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #d33e3e;
+  background-color: #563d7c;
+}
+
+/* front-page 拉低页面 */
+.minus-height{
+	padding-top: 70px;
+}
+
+/*文章页居中*/
+.fix-center {
+	float: none;
+	margin: 0 auto;
+}
+
+/* fonts */
+body {
+	font-family: Lato "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+	/*font: 14px/1.5 Lato, "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;*/
+	font-weight: normal;
+	line-height: 1.5em;
+	font-size: 14px;
+	background: #e8e8e8;
+}
+
+/* font for zhoufan.org */
+.zhoufan-font{
+	font-family: Montserrat Alternates;
+}
+
+/* title */
+
+
+p{
+	line-height: 2;
+	text-align: justify;
+}
+
+/* 全局链接 */
+a {
+  color: #39c;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #d33e3e;
+  text-decoration: none;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+/* tags */
+.tags-right{
+	color:#999999; 
+	font-size:0.9em;
+}  
+small{
+	font-family: "Open Sans", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	color: #555;
+
+}
+
+/* continue reading */
+.continue-reading > a{
+	font-size: 13px;
+	font-family: Cardo;
+	display: inline-block;
+	float: right;
+	color: #666;
+	background-color: #ebebeb;
+	position: relative;
+	padding: 4px 8px 4px 8px;
+	margin-top: 12px;
+}
+.continue-reading > a:hover,
+.continue-reading > a:focus{
+	background: #d33e3e;
+	text-shadow: none;
+	color: #f8f8f8;
+	text-decoration: none
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	-o-border-radius: 1px;
+	border-radius: 1px;
+	-webkit-transition: background-color 0.4s;
+	-moz-transition: background-color 0.4s;
+	-o-transition: background-color 0.4s;
+	transition: background-color 0.4s;
+}
+.jumbotron{
+	margin-bottom: 15px;
+	
+}
+/* footer 上下对齐 */
+.footer-height{
+	padding-bottom: 15px;
+}
+
+/* archive links */
+.line{
+	overflow: hidden;/* clear the float*/;
+}
+.line-left{
+	float:left;
+	font-size: 18px;
+	padding-left: 55px;
+}
+.line-left > a{
+	color: #3A0470;
+	text-decoration: none;
+}
+.line-left > a:hover,
+.line-left > a:focus{
+	color: #d33e3e;
+	text-decoration: none;
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+	-o-transition: color 0.4s;
+	transition: color 0.4s;
+}
+.line-right{
+	overflow: hidden;
+	float: right;
+	font-size: 14px;
+}
+/* hr for archives-page */
+.fix-center > hr {
+	margin-top: 17px;
+	margin-bottom: 18px;
+}
+.archive-hr{
+	margin-left: 70px;
+}
+/* hr for front-page  */
+.page-hr{
+	padding-bottom: 10px;
+}
+/* page-navigation links */
+.page-navi{
+	overflow: hidden;/* clear the float*/;
+}
+.page-navi-left{
+	float:left;
+	font-size: 18px;
+}
+.page-navi-left > a{
+	color: #3A0470;
+	text-decoration: none;
+}
+.page-navi-left > a:hover,
+.page-navi-left > a:focus{
+	color: #d33e3e;
+	text-decoration: none;
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+	-o-transition: color 0.4s;
+	transition: color 0.4s;
+}
+.page-navi-right{
+	overflow: hidden;
+	float: right;
+	font-size: 18px;
+}
+.page-navi-right > a{
+	color: #3A0470;
+	text-decoration: none;
+}
+.page-navi-right > a:hover,
+.page-navi-right > a:focus{
+	color: #d33e3e;
+	text-decoration: none;
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+	-o-transition: color 0.4s;
+	transition: color 0.4s;
+}
+
+.front-page-left {
+	margin-top: 60px;
+	margin-bottom: 80px;
+	background: #fff;
+	padding: 30px;
+	box-shadow: 0 2px 6px #ccc;
+}
+.front-page-right{
+	margin-top: 60px;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0 2px 6px #ccc;
+	margin-left: 40px;
+}
+
+/*  */
+.pane-spacing{
+	padding-top: 20px;
+}
+
+/* font size for Blog/Archives/Projects */
+.catalog-font{
+	font-size: 1.17em;
+}
+
+.zhoufan-name{
+	font-size: 20px;
+	font-weight: 400;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+
+.avatar-logo{
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition:border-radius 1s;
+	-moz-transition:border-radius 1s;
+	-o-transition:border-radius 1s;
+	transition:border-radius 1s
+}
+
+.view{
+	opacity: 0.9;
+}
+
+.view:hover{
+	opacity: 1;
+	cursor: pointer;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+.view > a{
+	font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: #39c;
+	zoom: 1.2;
+}
+
+.view > a:hover,
+.view > a:focus{
+	color: #d33e3e;
+	text-decoration: none
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+	-o-transition: color 0.4s;
+	transition: color 0.4s;
+}
+
+.view > a > small{
+	font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #777;
+	margin-top: -6px;
+	display: block;
+}
+
+.post-title{
+	font-size: 22px;
+	text-align: center;
+}
+
+.post-date{
+	display: inline-block;
+	float: right;
+}
+
