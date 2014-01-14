@@ -8,7 +8,7 @@ License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 License URI: http://creativecommons.org/licenses/by-sa/3.0/
 */
 
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
 
 /* 导航栏标题 */
 .navbar-inverse .navbar-brand{
@@ -183,10 +183,6 @@ small{
 	float:left;
 	font-size: 18px;
 	padding-left: 55px;
-}
-.line-left > a{
-	color: #3A0470;
-	text-decoration: none;
 }
 .line-left > a:hover,
 .line-left > a:focus{
