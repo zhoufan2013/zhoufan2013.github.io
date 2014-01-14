@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign logo = '<img class="avatar-logo" src="http://zhoufan.qiniudn.com/goodboy.jpg" alt="zhoufan.org" />' %}
 
 <link rel="stylesheet" href="/js/prettify/prettify.css" />
 <div class="container">
@@ -13,9 +14,8 @@ layout: default
 	        {{ content }}
 
 		</div>
-		{% assign logo = '<img class="avatar-logo" src="http://zhoufan.qiniudn.com/goodboy.jpg" alt="zhoufan.org" />' %}
-		{% assign LinedInlogo =  %}
-		<div class="col-md-3 col-md-offset-1 minus-height front-page-right">
+		
+		<div class="col-md-3 col-md-offset-1 hidden-xs hidden-sm minus-height front-page-right">
 			<div>
 				{{ logo }}  <span class="zhoufan-name">周凡</span>
 			</div>

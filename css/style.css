@@ -99,7 +99,7 @@ body {
 
 /* font for zhoufan.org */
 .zhoufan-font{
-	font-family: Montserrat Alternates;
+	font-weight: bold;
 }
 
 /* title */
@@ -351,3 +351,9 @@ small{
 .introduction{
 	font-size:15px;
 }
+
+.panel-body:hover{
+	background-color: red;
+	cursor: pointer;
+}
+
