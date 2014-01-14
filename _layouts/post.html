@@ -12,10 +12,15 @@ layout: default
 	        <p class="post-date">{{ page.date|date:"%Y-%m-%d" }}</p>
 	        <br><br>
 	        {{ content }}
-
+	        <div id="disqus_container">
+	        	<a href="#" class="comment" onclick="return false;">点击查看评论</a>
+				<div id="disqus_thread"></div>
+	        </div>
 		</div>
 		{% include introduction.html %}
-		
 	</div>
-
 </div>
+
+{% include disqus.js %}
+
+
