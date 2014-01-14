@@ -8,7 +8,7 @@ License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 License URI: http://creativecommons.org/licenses/by-sa/3.0/
 */
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 /* 导航栏标题 */
 .navbar-inverse .navbar-brand{
@@ -89,7 +89,7 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 /* fonts */
 body {
-	font-family: Lato "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+	font-family: 'Lato', "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
 	/*font: 14px/1.5 Lato, "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;*/
 	font-weight: normal;
 	line-height: 1.5em;
