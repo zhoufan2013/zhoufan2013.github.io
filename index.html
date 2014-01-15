@@ -16,8 +16,8 @@ title: 周凡君の个人站
 				<div class="tab-pane fade in active" id="Blog">
 					{% for post in site.posts %}
 						<div class="panel panel-info">
-							<div class="panel-heading"><a href="{{ post.url }}" >{{ post.title }}</a></div>
-							<div class="panel-body">{{ post.description }}</div>
+							<div class="panel-heading"><div>{{ post.title }}</div></div>
+							<a href="{{ post.url }}"><div class="panel-body">{{ post.description }}</div></a>
 						</div>
 						
 					{% endfor %}
