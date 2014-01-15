@@ -3,7 +3,8 @@ layout: post
 title: OPPO Find 5 让我眼前一亮
 date: 2012-12-13 16:28
 author: zhoufan
-comments: true
+comments: true   
+description: 回头现在看来，很一般了。
 categories: [手机, 科技]
 ---
 <img class="alignleft size-full wp-image-138" alt="IMG_6789" src="http://zhoufan.org/wp-content/uploads/2012/12/IMG_6789.jpg" width="1000" height="625" />
