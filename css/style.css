@@ -184,6 +184,9 @@ small{
 	font-size: 18px;
 	padding-left: 55px;
 }
+.line-left > a{
+	color: #31708f;
+}
 .line-left > a:hover,
 .line-left > a:focus{
 	color: #d33e3e;
@@ -365,5 +368,6 @@ small{
 
 .pagination{
 	float: right;
+	margin: 0px 0px;
 }
 
