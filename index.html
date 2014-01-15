@@ -14,13 +14,43 @@ title: 周凡君の个人站
 
 			<div class="tab-content pane-spacing">
 				<div class="tab-pane fade in active" id="Blog">
-					{% for post in site.posts %}
+					{% for post in paginator.posts %}
 						<div class="panel panel-info">
 							<div class="panel-heading"><div>{{ post.title }}</div></div>
 							<a href="{{ post.url }}"><div class="panel-body">{{ post.description }}</div></a>
 						</div>
 						
 					{% endfor %}
+
+					<!-- Pagination links -->
+					{% if paginator.total_pages > 1 %}
+						
+						<ul class="pagination pagination-sm">	
+						  {% if paginator.previous_page %}
+						    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+						  {% else %}
+						    <li class="disabled"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+						  {% endif %}
+
+						  {% for page in (1..paginator.total_pages) %}
+						    {% if page == paginator.page %}
+						      <li class="active"><a href="#">{{ page }} <span class="sr-only"></span></a></li>
+						    {% elsif page == 1 %}
+						      <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+						    {% else %}
+						      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+						    {% endif %}
+						  {% endfor %}
+
+						  {% if paginator.next_page %}
+						    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+						  {% else %}
+						    <li class="disabledx"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+						  {% endif %}
+						</ul>
+						
+					{% endif %}
+					
 				</div>
 				<div class="tab-pane fade" id="Archives">
 					{% for post in site.posts %}       

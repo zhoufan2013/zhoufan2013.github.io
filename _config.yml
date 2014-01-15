@@ -11,7 +11,8 @@ title: 周凡君の个人站
 # ---------------------- #
 markdown: rdiscount
 pygments: true
-paginate: 10
+paginate: 7
+paginate_path: "page:num"
 permalink: pretty
 feed: /atom.xml
 timezone: Asia/Shanghai

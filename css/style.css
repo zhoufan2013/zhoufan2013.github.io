@@ -363,3 +363,7 @@ small{
 	cursor: pointer;
 }
 
+.pagination{
+	float: right;
+}
+
