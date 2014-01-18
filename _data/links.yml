@@ -1,0 +1,18 @@
+# ---------------------- #
+#      Link Configs      #
+# ---------------------- #
+- name: Weibo
+  href: http://weibo.com/zhoufan2011
+  description: A good way to contact
+
+- name: GitHub
+  href: https://github.com/zhoufan2013
+  description: If coding is your thing
+
+- name: LinkedIn
+  href: http://cn.linkedin.com/pub/zhou-fan/54/4aa/238/
+  description: Profession
+
+- name: Gmail
+  href: mailto:scholes17@gmail.com
+  description: Email me
