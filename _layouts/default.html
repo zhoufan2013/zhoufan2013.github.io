@@ -39,13 +39,13 @@
 
     <script type="text/javascript">
         $(function(){
-            $('.home-follow').click(function(e){
+            $('.zhoufan-name').click(function(e){
                 e.preventDefault();
 
-                if($('.home-contact').is(':visible')){
-                    $('.home-contact').slideUp(100);
+                if($('#info').is(':visible')){
+                    $('#info').slideUp(200);
                 }else{
-                    $('.home-contact').slideDown(100);
+                    $('#info').slideDown(200);
                 }
             });
         })
