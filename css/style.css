@@ -95,6 +95,9 @@ body {
 	line-height: 1.5em;
 	font-size: 14px;
 	background: #e8e8e8;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
 }
 
 /* font for zhoufan.org */
@@ -136,43 +139,6 @@ small{
 	font-weight: 300;
 	color: #555;
 
-}
-
-/* continue reading */
-.continue-reading > a{
-	font-size: 13px;
-	font-family: Cardo;
-	display: inline-block;
-	float: right;
-	color: #666;
-	background-color: #ebebeb;
-	position: relative;
-	padding: 4px 8px 4px 8px;
-	margin-top: 12px;
-}
-.continue-reading > a:hover,
-.continue-reading > a:focus{
-	background: #d33e3e;
-	text-shadow: none;
-	color: #f8f8f8;
-	text-decoration: none
-	-webkit-border-radius: 1px;
-	-moz-border-radius: 1px;
-	-ms-border-radius: 1px;
-	-o-border-radius: 1px;
-	border-radius: 1px;
-	-webkit-transition: background-color 0.4s;
-	-moz-transition: background-color 0.4s;
-	-o-transition: background-color 0.4s;
-	transition: background-color 0.4s;
-}
-.jumbotron{
-	margin-bottom: 15px;
-	
-}
-/* footer 上下对齐 */
-.footer-height{
-	padding-bottom: 15px;
 }
 
 /* archive links */
@@ -261,9 +227,10 @@ small{
 	box-shadow: 0 2px 6px #ccc;
 }
 .front-page-right{
+	padding: 0px;
 	margin-top: 60px;
 	background-color: #fff;
-	padding: 30px;
+	/* padding: 30px; */
 	box-shadow: 0 2px 6px #ccc;
 }
 
@@ -277,16 +244,13 @@ small{
 	font-size: 1.17em;
 }
 
-.zhoufan-name{
-	font-size: 20px;
-	font-weight: 400;
-	vertical-align: middle;
-	margin-left: 15px;
+#menu-list li.avatar a img{
+	vertical-align: text-bottom;
 }
 
 .avatar-logo{
-	width: 50px;
-	height: 50px;
+	width: 58px;
+	height: 58px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -297,6 +261,82 @@ small{
 	-o-transition:border-radius 1s;
 	transition:border-radius 1s
 }
+
+#menu > ul{
+	list-style: none;
+	display: inline;
+}
+
+#menu > ul > li{
+	height: 87px;
+
+}
+
+#menu-list li a{
+	height: 87px;
+	text-align: center;
+	display: block;
+	color: #6e798a;
+	font-size: 1.1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'brandon-grotesque',sans-serif;
+	line-height: 121px;
+}
+
+#menu-list li.avatar a:hover,
+#menu-list li.avatar a:focus{
+
+	-webkit-transition: All 0.6s ease;
+	-moz-transition: All 0.6s ease;
+	-o-transition: All 0.6s ease;
+	-ms-transition: All 0.6s ease;
+	transition: All 0.6s ease;
+}
+
+#menu-list li.me a:hover,
+#menu-list li.me a:focus{
+	background-color: #e2e9ed;
+	-webkit-transition: All 0.6s ease;
+	-moz-transition: All 0.6s ease;
+	-o-transition: All 0.6s ease;
+	-ms-transition: All 0.6s ease;
+	transition: All 0.6s ease;
+}
+
+#menu-list li.blog a:hover,
+#menu-list li.blog a:focus{
+	background-color: #e2e9ed;
+	-webkit-transition: All 0.6s ease;
+	-moz-transition: All 0.6s ease;
+	-o-transition: All 0.6s ease;
+	-ms-transition: All 0.6s ease;
+	transition: All 0.6s ease;
+}
+
+#menu-list li.resume a:hover,
+#menu-list li.resume a:focus{
+	background-color: #e2e9ed;
+	-webkit-transition: All 0.6s ease;
+	-moz-transition: All 0.6s ease;
+	-o-transition: All 0.6s ease;
+	-ms-transition: All 0.6s ease;
+	transition: All 0.6s ease;
+}
+
+#menu-list li.me a{
+	background: url(me_hover.png) center 20px no-repeat;
+}
+
+#menu-list li.blog a{
+	background: url(blog_hover.png) center 20px no-repeat;	
+}
+
+#menu-list li.resume a{
+	background: url(resume_hover.png) center 20px no-repeat;	
+}
+
+
 
 .view{
 	opacity: 0.9;
@@ -349,6 +389,7 @@ small{
 }
 
 .panel-info>.panel-heading {
+	color: #39c;
 	background-color: #fff;
 	font-size: 15px;
 }

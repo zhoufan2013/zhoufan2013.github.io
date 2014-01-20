@@ -1,25 +1,15 @@
 {% assign logo = '<img class="avatar-logo" src="http://zhoufan.qiniudn.com/goodboy.jpg" alt="zhoufan.org" />' %}
+{% assign me = '<img src="http://zhoufan.qiniudn.com/me_hover.png" alt="me" />' %}
 
-<div class="col-md-2 col-md-offset-7 hidden-xs hidden-sm minus-height front-page-right" data-spy="affix">
-	<div>
-		<a href="http://zhoufan.org">{{ logo }}</a>  <span class="zhoufan-name">周凡</span>
-	</div>
-	
-	<div id="info">
-		<hr>
-		<p class="introduction">
-			My name is ZhouFan, a coder working for AsiaInfo-Linkage. You can find me on a variety of web sites listed blow.
-			<br>
-			I live in & ♥ Nanjing. 
-		</p>
-		<hr>
-		<div>
-			{% for link in site.data.links %}
-				<p class="view">
-					<a href="{{ link.href }}" title="{{ link.name }}">{{ link.name }}<br><small>{{ link.description }}</small></a>
-				</p>
-			{% endfor %}
-		</div>
+<div class="col-md-1 col-md-offset-8 hidden-xs hidden-sm front-page-right" data-spy="affix">
+	<div id="menu">
+		<ul id="menu-list">
+			<li class="avatar"><a href="http://zhoufan.org">{{ logo }}</a></li>
+			<li class="me"><a href="#home">ME</a></li>
+			<li class="blog"><a href="#blog">BLOG</a></li>
+			<li class="resume"><a href="#resume">RESUME</a></li>
+		</ul>
+		
 	</div>
 	
 	
