@@ -324,6 +324,10 @@ small{
 	transition: All 0.6s ease;
 }
 
+.menu-selected{
+	background-color: #e2e9ed;
+}
+
 #menu-list li.me a{
 	background: url(me_hover.png) center 20px no-repeat;
 }
