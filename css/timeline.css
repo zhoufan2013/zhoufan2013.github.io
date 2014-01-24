@@ -46,9 +46,9 @@
     width: 46%;
     padding: 20px;
     border: 1px solid #d4d4d4;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 1px 6px rgba(0,0,0,0.175);
-    box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 6px rgba(0,0,0,0.175);
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.175);
 }
 
 .timeline > li > .timeline-panel:before {
@@ -78,17 +78,17 @@
 .timeline > li > .timeline-badge {
     z-index: 100;
     position: absolute;
-    top: 16px;
+    top: 21px;
     left: 50%;
-    width: 50px;
-    height: 50px;
-    margin-left: -25px;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
     border-radius: 50% 50% 50% 50%;
     text-align: center;
-    font-size: 1.4em;
-    line-height: 50px;
+    font-size: 1.3em;
+    line-height: 40px;
     color: #fff;
-    background-color: #999999;
+    background-color: #0266C8;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -118,15 +118,15 @@
 }
 
 .timeline-badge.warning {
-    background-color: #f0ad4e !important;
+    background-color: #F90101 !important;
 }
 
 .timeline-badge.danger {
-    background-color: #d9534f !important;
+    background-color: #F2B50F !important;
 }
 
 .timeline-badge.info {
-    background-color: #5bc0de !important;
+    background-color: #00933B !important;
 }
 
 .timeline-title {
