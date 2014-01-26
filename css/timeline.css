@@ -12,7 +12,15 @@
     left: 50%;
     width: 3px;
     margin-left: -1.5px;
-    background-color: #eeeeee;
+    
+    filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=red,endcolorstr=blue,gradientType=0);
+    -ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=red,endcolorstr=blue,gradientType=0);/*IE8*/    
+    background:red; /* 一些不支持背景渐变的浏览器 */  
+    background:-moz-linear-gradient(linear, 0 0, 0 bottom, from(#11EEEE), color-stop(0.4,#9E19F8),color-stop(0.6,#31DF77),to(rgba(255, 0, 0, 0.4)));
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#11EEEE), color-stop(0.4,#9E19F8),color-stop(0.6,#31DF77),to(rgba(255, 0, 0, 0.4)));
+    background:-o-linear-gradient(linear, 0 0, 0 bottom, from(#11EEEE), color-stop(0.4,#9E19F8),color-stop(0.6,#31DF77),to(rgba(255, 0, 0, 0.4))); 
+
+
 }
 
 .timeline > li {
@@ -75,22 +83,6 @@
     border-left: 14px solid #fff;
 }
 
-.timeline > li > .timeline-badge {
-    z-index: 100;
-    position: absolute;
-    top: 21px;
-    left: 50%;
-    width: 40px;
-    height: 40px;
-    margin-left: -20px;
-    border-radius: 50% 50% 50% 50%;
-    text-align: center;
-    font-size: 1.3em;
-    line-height: 40px;
-    color: #fff;
-    background-color: #0266C8;
-}
-
 .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
 }
@@ -107,26 +99,6 @@
     left: -14px;
     border-right-width: 14px;
     border-left-width: 0;
-}
-
-.timeline-badge.primary {
-    background-color: #2e6da4 !important;
-}
-
-.timeline-badge.success {
-    background-color: #3f903f !important;
-}
-
-.timeline-badge.warning {
-    background-color: #F90101 !important;
-}
-
-.timeline-badge.danger {
-    background-color: #F2B50F !important;
-}
-
-.timeline-badge.info {
-    background-color: #00933B !important;
 }
 
 .timeline-title {

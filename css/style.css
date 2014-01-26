@@ -94,7 +94,8 @@ body {
 	font-weight: normal;
 	line-height: 1.5em;
 	font-size: 14px;
-	background: #e8e8e8;
+	/*background: #e8e8e8;*/
+	background: #273139;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	-o-font-smoothing: antialiased;
@@ -224,14 +225,16 @@ small{
 	margin-bottom: 40px;
 	background: #fff;
 	padding: 30px;
-	box-shadow: 0 2px 6px #ccc;
+	border-radius: 4px;
 }
 .front-page-right{
 	padding: 0px;
 	margin-top: 60px;
+}
+
+#menu{
 	background-color: #fff;
-	/* padding: 30px; */
-	box-shadow: 0 2px 6px #ccc;
+	border-radius: 4px;
 }
 
 /*  */
@@ -277,7 +280,7 @@ small{
 	text-align: center;
 	display: block;
 	color: #6e798a;
-	font-size: 1.1em;
+	font-size: 1em;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'brandon-grotesque',sans-serif;
@@ -354,6 +357,21 @@ small{
 	background: url(http://zhoufan.qiniudn.com/resume_hover.png) center 20px no-repeat;	
 }
 
+.contactme{
+	background: #3cb68d;
+	border-radius: 4px;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+	line-height: 37px;
+	height: 35px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'brandon-grotesque',sans-serif;
+}
 
 .view{
 	opacity: 0.9;
