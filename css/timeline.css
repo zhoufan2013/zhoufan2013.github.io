@@ -17,7 +17,7 @@ avatar > div{
 
 avatar > div > img{
     width: 130px;
-    height: 130px;
+    height: 140px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -75,7 +75,7 @@ basicinfo > div{
 }
 
 .fa-male, .fa-map-marker, .fa-envelope, .fa-phone-square{
-    font-size: 20px;
+    font-size: 24px;
     color: #666;
     width: 15%;
 }
@@ -182,7 +182,7 @@ social{
 socialinfo{
     display: block;
     width: 90%;
-    height: 100px;
+    height: 120px;
     margin: 0 auto;
     text-align: center;
 }
@@ -190,7 +190,7 @@ socialinfo{
 .contact-item{
     width: 100%;
     height: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .contact-left{
@@ -215,8 +215,8 @@ socialinfo{
     text-align: left;
 }
 
-.fa-github, .fa-linkedin, .fa-weibo, .fa-twitter{
-    font-size: 20px;
+.fa-github, .fa-linkedin-square, .fa-weibo, .fa-twitter{
+    font-size: 24px;
     color: #666;
 }
 
