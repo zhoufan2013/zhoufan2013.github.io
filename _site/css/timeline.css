@@ -68,6 +68,7 @@ basicinfo > div{
 
 .basicinfo-up{
     margin-top: 10px;
+    font-size: 16px;
 }
 
 .basicinfo-down{
@@ -75,7 +76,7 @@ basicinfo > div{
 }
 
 .fa-male, .fa-map-marker, .fa-envelope, .fa-phone-square{
-    font-size: 24px;
+    font-size: 22px;
     color: #666;
     width: 15%;
 }

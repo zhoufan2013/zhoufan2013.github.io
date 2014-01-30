@@ -89,7 +89,7 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 /* fonts */
 body {
-	font-family: "Microsoft YaHei", Arial, sans-serif;
+	font-family: 'brandon-grotesque',"Microsoft YaHei", Arial, sans-serif;
 	/*font: 14px/1.5 Lato, "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;*/
 	font-weight: normal;
 	line-height: 1.5em;
