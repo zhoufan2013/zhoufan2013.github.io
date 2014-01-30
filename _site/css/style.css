@@ -1,0 +1,458 @@
+/*
+Author: Zhou Fan
+Author URI: http://zhoufan.org
+Version: 1.0
+Tags: responsive, bootstrap
+ 
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+/* @import url(https://fonts.googleapis.com/css?family=Lato:300); */
+
+/* 导航栏标题 */
+.navbar-inverse .navbar-brand{
+	color: #fff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #d33e3e;
+  text-shadow: 0 1px #333;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s
+}
+
+/* nav-menu 链接 */
+.navbar-inverse .navbar-nav > li > a{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  	color: #d33e3e;
+  	text-shadow: 0 1px #333;
+  	-webkit-transition: color 0.4s;
+  	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	transition: color 0.4s
+}
+
+/* active 激活状态 */
+.navbar-inverse .navbar-nav > .active > a{
+	background-color: #563d7c;
+}
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: #563d7c;
+  	color: #d33e3e;
+  	text-shadow: 0 1px #333;
+  	-webkit-transition: color 0.4s;
+  	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	transition: color 0.4s
+}
+
+/* caret 插入小角标 */
+.navbar-inverse .navbar-nav>.dropdown>a .caret{
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret ,
+.navbar-inverse .navbar-nav > .dropdown > a:focus .caret {
+  	border-top-color: #d33e3e;
+  	border-bottom-color: #d33e3e;
+  	-webkit-transition: color 0.4s;
+  	-moz-transition: color 0.4s;
+  	-o-transition: color 0.4s;
+  	transition: color 0.4s
+}
+
+/* navbar-nav 被选中状态 */
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #d33e3e;
+  background-color: #563d7c;
+}
+
+/* front-page 拉低页面 */
+.minus-height{
+	padding-top: 70px;
+}
+
+/*文章页居中*/
+.fix-center {
+	float: none;
+	margin: 0 auto;
+}
+
+/* fonts */
+body {
+	font-family: "Microsoft YaHei", Arial, sans-serif;
+	/*font: 14px/1.5 Lato, "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;*/
+	font-weight: normal;
+	line-height: 1.5em;
+	font-size: 14px;
+	/*background: #e8e8e8;*/
+	background: #273139;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+/* font for zhoufan.org */
+.zhoufan-font{
+	font-weight: bold;
+}
+
+/* title */
+
+
+p{
+	line-height: 2;
+	text-align: justify;
+}
+
+/* 全局链接 */
+a {
+  color: #39c;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #d33e3e;
+  text-decoration: none;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+/* tags */
+.tags-right{
+	color:#999999; 
+	font-size:0.9em;
+}  
+
+
+/* archive links */
+.line{
+	overflow: hidden;/* clear the float*/;
+}
+.line-left{
+	float:left;
+	font-size: 18px;
+	padding-left: 55px;
+}
+.line-left > a{
+	color: #31708f;
+}
+.line-left > a:hover,
+.line-left > a:focus{
+	color: #d33e3e;
+	text-decoration: none;
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+	-o-transition: color 0.4s;
+	transition: color 0.4s;
+}
+.line-right{
+	overflow: hidden;
+	float: right;
+	font-size: 14px;
+}
+/* hr for archives-page */
+.fix-center > hr {
+	margin-top: 17px;
+	margin-bottom: 18px;
+}
+.archive-hr{
+	margin-left: 70px;
+}
+/* hr for front-page  */
+.page-hr{
+	padding-bottom: 10px;
+}
+/* page-navigation links */
+.page-navi{
+	overflow: hidden;/* clear the float*/;
+}
+.page-navi-left{
+	float:left;
+	font-size: 18px;
+}
+.page-navi-left > a{
+	color: #3A0470;
+	text-decoration: none;
+}
+.page-navi-left > a:hover,
+.page-navi-left > a:focus{
+	color: #d33e3e;
+	text-decoration: none;
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+	-o-transition: color 0.4s;
+	transition: color 0.4s;
+}
+.page-navi-right{
+	overflow: hidden;
+	float: right;
+	font-size: 18px;
+}
+.page-navi-right > a{
+	color: #3A0470;
+	text-decoration: none;
+}
+.page-navi-right > a:hover,
+.page-navi-right > a:focus{
+	color: #d33e3e;
+	text-decoration: none;
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+	-o-transition: color 0.4s;
+	transition: color 0.4s;
+}
+
+.front-page-left {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	background: #fff;
+	padding: 30px;
+	border-radius: 4px;
+}
+.front-page-right{
+	padding: 0px;
+	margin-top: 60px;
+}
+
+.resume-page{
+	margin-top: 60px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+#menu{
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+/* remove 15px of div`s padding in bootstrap */
+div.row-resume > div[class*="col-"] {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+
+/*  */
+.pane-spacing{
+	padding-top: 20px;
+}
+
+/* font size for Blog/Archives/Projects */
+.catalog-font{
+	font-size: 1.17em;
+}
+
+#menu-list li.avatar a img{
+	vertical-align: text-bottom;
+}
+
+.avatar-logo{
+	width: 58px;
+	height: 58px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition:border-radius 1s;
+	-moz-transition:border-radius 1s;
+	-o-transition:border-radius 1s;
+	transition:border-radius 1s
+}
+
+#menu > ul{
+	list-style: none;
+	display: inline;
+}
+
+#menu > ul > li{
+	height: 87px;
+
+}
+
+#menu-list li a{
+	height: 87px;
+	text-align: center;
+	display: block;
+	color: #6e798a;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'brandon-grotesque',sans-serif;
+	line-height: 121px;
+}
+
+#menu-list li.avatar a:hover,
+#menu-list li.avatar a:focus{
+
+	-webkit-transition: All 0.6s ease;
+	-moz-transition: All 0.6s ease;
+	-o-transition: All 0.6s ease;
+	-ms-transition: All 0.6s ease;
+	transition: All 0.6s ease;
+}
+
+#menu-list li.me a:hover,
+#menu-list li.me a:focus{
+	background-color: #e2e9ed;
+	-webkit-transition: All 0.6s ease;
+	-moz-transition: All 0.6s ease;
+	-o-transition: All 0.6s ease;
+	-ms-transition: All 0.6s ease;
+	transition: All 0.6s ease;
+}
+
+#menu-list li.blog a:hover,
+#menu-list li.blog a:focus{
+	background-color: #e2e9ed;
+	-webkit-transition: All 0.6s ease;
+	-moz-transition: All 0.6s ease;
+	-o-transition: All 0.6s ease;
+	-ms-transition: All 0.6s ease;
+	transition: All 0.6s ease;
+}
+
+#menu-list li.projects a:hover,
+#menu-list li.projects a:focus{
+	background-color: #e2e9ed;
+	-webkit-transition: All 0.6s ease;
+	-moz-transition: All 0.6s ease;
+	-o-transition: All 0.6s ease;
+	-ms-transition: All 0.6s ease;
+	transition: All 0.6s ease;
+}
+
+#menu-list li.resume a:hover,
+#menu-list li.resume a:focus{
+	background-color: #e2e9ed;
+	-webkit-transition: All 0.6s ease;
+	-moz-transition: All 0.6s ease;
+	-o-transition: All 0.6s ease;
+	-ms-transition: All 0.6s ease;
+	transition: All 0.6s ease;
+}
+
+.menu-selected{
+	background-color: #e2e9ed;
+}
+
+#menu-list li.me a{
+	background: url(http://zhoufan.qiniudn.com/me_hover.png) center 20px no-repeat;
+}
+
+#menu-list li.blog a{
+	background: url(http://zhoufan.qiniudn.com/blog_hover.png) center 20px no-repeat;	
+}
+
+#menu-list li.projects a{
+	background: url(http://zhoufan.qiniudn.com/work_hover.png) center 20px no-repeat;		
+}
+
+#menu-list li.resume a{
+	background: url(http://zhoufan.qiniudn.com/resume_hover.png) center 20px no-repeat;	
+}
+
+.contactme{
+	background: #3cb68d;
+	border-radius: 4px;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+	line-height: 37px;
+	height: 35px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'brandon-grotesque',sans-serif;
+}
+
+.view{
+	opacity: 0.9;
+}
+
+.view:hover{
+	opacity: 1;
+	cursor: pointer;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+.view > a{
+	font-weight: 400;
+	color: #39c;
+	zoom: 1.2;
+}
+
+.view > a:hover,
+.view > a:focus{
+	color: #d33e3e;
+	text-decoration: none
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+	-o-transition: color 0.4s;
+	transition: color 0.4s;
+}
+
+.view > a > small{
+	font-size: 11px;
+	color: #777;
+	margin-top: -6px;
+	display: block;
+}
+
+.post-title{
+	font-size: 22px;
+	text-align: center;
+}
+
+.post-date{
+	display: inline-block;
+	float: right;
+}
+
+.introduction{
+	font-size:15px;
+}
+
+.panel-info>.panel-heading {
+	color: #39c;
+	background-color: #fff;
+	font-size: 15px;
+}
+
+.panel-body{
+	display: block;
+	color: #333;
+}
+
+.panel-body:hover,
+.panel-body:focus{
+	color: #333;
+	background-color: #D2E9FF;
+	cursor: pointer;
+}
+
+.pagination{
+	float: right;
+	margin: 0px 0px;
+}
+
