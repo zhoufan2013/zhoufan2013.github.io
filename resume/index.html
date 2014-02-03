@@ -14,7 +14,7 @@ title: 周凡君の个人简历
 				</div>
 
 				<div class="name">
-					周 凡
+					{{ site.data.resume.name }}
 				</div>
 
 			</avatar>
@@ -22,16 +22,16 @@ title: 周凡君の个人简历
 			<basicinfo>
 				<div>
 					<div class="basicinfo-left">
-						<div class="basicinfo-up"><i class="fa fa-male"></i> 11.02.1989</div>
+						<div class="basicinfo-up"><i class="fa fa-male"></i> {{ site.data.resume.birthday }}</div>
 						<div class="basicinfo-down"><i class="fa fa-users"></i> Unmarried</div>
 					</div>
 					<div class="basicinfo-middle">
-						<div class="basicinfo-up"><i class="fa fa-map-marker"></i> 南京</div>
+						<div class="basicinfo-up"><i class="fa fa-map-marker"></i> {{ site.data.resume.location }}</div>
 						<div class="basicinfo-down"><i class="fa fa-github-square"></i> zhoufan2013</div>
 					</div>
 					<div class="basicinfo-right">
-						<div class="basicinfo-up"><i class="fa fa-phone-square"></i> +86 15195919811</div>
-						<div class="basicinfo-down"><i class="fa fa-envelope"></i> zhoufandev@gmail.com</div>
+						<div class="basicinfo-up"><i class="fa fa-phone-square"></i> {{ site.data.resume.phone }}</div>
+						<div class="basicinfo-down"><i class="fa fa-envelope"></i> {{ site.data.resume.email }}</div>
 					</div>
 				</div>				
 			</basicinfo>
@@ -43,78 +43,54 @@ title: 周凡君の个人简历
 			</experiences>
 
 	        <ul class="timeline">
-	            <li>
-	                <div class="timeline-panel">
-                		<div class="timeline-panel-date">
-                			<div class="clearfix">
-                				<timeline-year>2013</timeline-year>
-                				<timeline-date>May-Now</timeline-date>
-                			</div>
-                		</div>
-                		<div class="timeline-panel-body">
-                			<div class="timeline-heading">
-		                        <h4 class="timeline-title">亚信联创科技</h4>
-		                    </div>
-		                    <div class="timeline-body">
-		                        <p>Veris UPC</p>
-		                    </div>
-                		</div>
-	                </div>
-	            </li>
-	            <li class="timeline-inverted">
-            		<div class="timeline-panel">
-            			<div class="timeline-panel-date-inverted">
-		            		<div class="clearfix">
-                				<timeline-year>2013</timeline-year>
-                				<timeline-date>May-Now</timeline-date>
-                			</div>
-		            	</div>
-		            	<div class="timeline-panel-body-inverted">
-		                    <div class="timeline-heading">
-		                        <h4 class="timeline-title">大学毕业</h4>
-		                    </div>
-		                    <div class="timeline-body">
-		                        <p>大学最大的收获</p>
-		                    </div>
-		                </div> 
-	                </div>
-	            </li>
-	            <li>
-	                <div class="timeline-panel">
-	                	<div class="timeline-panel-date">
-		            		<div class="clearfix">
-                				<timeline-year>2012</timeline-year>
-                				<timeline-date>May-Now</timeline-date>
-                			</div>
-		            	</div>
-		            	<div class="timeline-panel-body">
-		                    <div class="timeline-heading">
-		                        <h4 class="timeline-title">高分子材料研究</h4>
-		                    </div>
-		                    <div class="timeline-body">
-		                        <p>甲壳素纳米晶研究，做实验和写代码殊途同归，都是需要静下心来思考，尝试，重构，解决问题的过程。</p>
-		                    </div>
-	                    </div>
-	                </div>
-	            </li>
-	            <li class="timeline-inverted">
-	                <div class="timeline-panel">
-	                	<div class="timeline-panel-date-inverted">
-		            		<div class="clearfix">
-                				<timeline-year>2009</timeline-year>
-                				<timeline-date>May-Now</timeline-date>
-                			</div>
-		            	</div>
-		            	<div class="timeline-panel-body-inverted">
-		            		<div class="timeline-heading">
-		                        <h4 class="timeline-title">为奴十二年</h4>
-		                    </div>
-		                    <div class="timeline-body">
-		                        <p>王小波先生的「黄金时代」是我重新认识这个世界的桥接。</p>
-		                    </div>
-		            	</div>	                    
-	                </div>
-	            </li>
+	        	{% for experience in site.data.experiences %}
+					
+					{% if experience.flag %}
+
+						<li>
+			                <div class="timeline-panel">
+		                		<div class="timeline-panel-date">
+		                			<div class="clearfix">
+		                				<timeline-year>{{ experience.year }}</timeline-year>
+		                				<timeline-date>{{ experience.date }}</timeline-date>
+		                			</div>
+		                		</div>
+		                		<div class="timeline-panel-body">
+		                			<div class="timeline-heading">
+				                        <h4 class="timeline-title">{{ experience.title }}</h4>
+				                    </div>
+				                    <div class="timeline-body">
+				                        <p>{{ experience.description }}</p>
+				                    </div>
+		                		</div>
+			                </div>
+			            </li>
+
+					{% else %}
+						
+						<li class="timeline-inverted">
+		            		<div class="timeline-panel">
+		            			<div class="timeline-panel-date-inverted">
+				            		<div class="clearfix">
+		                				<timeline-year>{{ experience.year }}</timeline-year>
+		                				<timeline-date>{{ experience.date }}</timeline-date>
+		                			</div>
+				            	</div>
+				            	<div class="timeline-panel-body-inverted">
+				                    <div class="timeline-heading">
+				                        <h4 class="timeline-title">{{ experience.title }}</h4>
+				                    </div>
+				                    <div class="timeline-body">
+				                        <p>{{ experience.description }}</p>
+				                    </div>
+				                </div> 
+			                </div>
+			            </li>
+
+					{% endif %}
+
+				{% endfor %}
+
 	        </ul>
 
 	        <profession>
@@ -204,22 +180,22 @@ title: 周凡君の个人简历
 				<div class="contact-left">
 					<div class="contact-item">
         				<div class="contact-brand"><i class="fa fa-github"></i></div>
-                    	<div class="contact-address"><a href="">/zhoufan2013</a></div>
+                    	<div class="contact-address"><a href=""> {{ site.data.resume.github }}</a></div>
 	        		</div>
 	        		<div class="contact-item">
         				<div class="contact-brand"><i class="fa fa-linkedin-square"></i></div>
-                    	<div class="contact-address"><a href="">/pub/zhou-fan/54/4aa/238</a></div>
+                    	<div class="contact-address"><a href=""> {{ site.data.resume.linkedin }}</a></div>
 	        		</div>
 	        		
 	        	</div>
 	        	<div class="contact-right">
 	        		<div class="contact-item">
         				<div class="contact-brand"><i class="fa fa-weibo"></i></div>
-                    	<div class="contact-address"><a href="">@zhoufan2011</a></div>
+                    	<div class="contact-address"><a href=""> @{{ site.data.resume.weibo }}</a></div>
 	        		</div>
 	        		<div class="contact-item">
         				<div class="contact-brand"><i class="fa fa-twitter"></i></div>
-                    	<div class="contact-address"><a href="">@JoeVan1989</a></div>
+                    	<div class="contact-address"><a href=""> @{{ site.data.resume.twitter }}</a></div>
 	        		</div>
 	        	</div>
 			</socialinfo>

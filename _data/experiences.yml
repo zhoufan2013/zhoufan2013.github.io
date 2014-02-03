@@ -1,0 +1,27 @@
+# ---------------------- #
+#   Experiences Configs  #
+# ---------------------- #
+- year: Y2013
+  date: May-Now
+  title: 亚信
+  description: Veris UPC
+  flag: true
+
+- year: Y2013
+  date: May-Now
+  title: 大学毕业
+  description: 大学
+  flag: false
+
+
+- year: Y2012
+  date: May-Now
+  title: 高分子实验室
+  description: 甲壳素纳米晶
+  flag: true
+
+- year: Y2009
+  date: May-Now
+  title: 高分子实验室
+  description: 甲壳素纳米晶
+  flag: false 

@@ -2,4 +2,19 @@
 #      Resume Configs    #
 # ---------------------- #
 
+# basic infomation
+name: 周凡
+birthday: 11.02.1989
+location: 南京
+phone: +86 15195919811
+email: scholes17@gmail.com
 
+# skills
+skill: Java
+percent: 85%
+
+# social
+github: /zhoufan2013
+weibo: zhoufan2011
+linkedin: /pub/zhou-fan/54/4aa/238
+twitter: JoeVan1989
