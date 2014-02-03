@@ -11,7 +11,7 @@
 希望 [zhoufan.org](http://zhoufan.org) 的源码可以对那些想要把博客放到[GitHub Page](http://pages.github.com/) 的 blogger 一点帮助。 ：）
 
 ### Version
-0.5 - 简历信息可配置
+0.5 - 简历信息可配置  
 0.4 - 增加个人信息页和简历页，增加导航条（平板手机分辨率隐藏）  
 0.3 - wordpress 数据迁移，增加分页功能。  
 0.2 - 添加评论功能（第三方Disqus，初始化隐藏），启用 Google Analytics 。  
