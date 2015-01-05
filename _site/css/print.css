@@ -1,0 +1,30 @@
+/*
+Author: Zhou Fan
+Author URI: http://zhoufan.org
+Version: 1.0
+Tags: responsive, bootstrap
+ 
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+@page {
+	margin: 2cm;
+}
+
+body{
+	background-color: white !important;
+}
+
+
+#resumeGuide{
+	display: none;
+}
+
+.avatarPic{
+
+}
+
+footer{
+	display: none;
+}
