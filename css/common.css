@@ -777,5 +777,8 @@ timeline-date{
     padding: 5px;
 }
 
-
-
+/*项目展示*/
+.proj-desc{
+    padding-left: 15px;
+    padding-right: 15px;
+}
