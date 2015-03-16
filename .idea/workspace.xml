@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ddc77c0-3715-45d7-95ab-bd9a35d9f0c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atom.xml" afterPath="$PROJECT_DIR$/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/11/30/关于博客运营的一点想法/index.html" afterPath="$PROJECT_DIR$/_site/2012/11/30/关于博客运营的一点想法/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/11/30/写在创世纪/index.html" afterPath="$PROJECT_DIR$/_site/2012/11/30/写在创世纪/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/12/05/发薪啦！/index.html" afterPath="$PROJECT_DIR$/_site/2012/12/05/发薪啦！/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/12/09/从罗伊案看美国司法进程（一）/index.html" afterPath="$PROJECT_DIR$/_site/2012/12/09/从罗伊案看美国司法进程（一）/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/12/09/分享一些博客数据/index.html" afterPath="$PROJECT_DIR$/_site/2012/12/09/分享一些博客数据/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/12/13/oppo-finder-5/index.html" afterPath="$PROJECT_DIR$/_site/2012/12/13/oppo-finder-5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/12/16/你选择相信什么/index.html" afterPath="$PROJECT_DIR$/_site/2012/12/16/你选择相信什么/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/12/17/我选择相信什么/index.html" afterPath="$PROJECT_DIR$/_site/2012/12/17/我选择相信什么/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/12/20/投递南京市长信箱：关于57路的车辆更新，驾驶员服务态度问题/index.html" afterPath="$PROJECT_DIR$/_site/2012/12/20/投递南京市长信箱：关于57路的车辆更新，驾驶员服务态度问题/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/12/31/年末放空/index.html" afterPath="$PROJECT_DIR$/_site/2012/12/31/年末放空/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/02/27/南京57路公交乘车心得/index.html" afterPath="$PROJECT_DIR$/_site/2013/02/27/南京57路公交乘车心得/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/03/01/你回来了/index.html" afterPath="$PROJECT_DIR$/_site/2013/03/01/你回来了/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/05/03/中低端手机也能享受iPhone的畅快体验/index.html" afterPath="$PROJECT_DIR$/_site/2013/05/03/中低端手机也能享受iPhone的畅快体验/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/05/14/20-13/index.html" afterPath="$PROJECT_DIR$/_site/2013/05/14/20-13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/06/12/一家人/index.html" afterPath="$PROJECT_DIR$/_site/2013/06/12/一家人/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/06/13/梦圆了/index.html" afterPath="$PROJECT_DIR$/_site/2013/06/13/梦圆了/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/01/02/個別計画/index.html" afterPath="$PROJECT_DIR$/_site/2014/01/02/個別計画/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/01/02/最有趣的时光/index.html" afterPath="$PROJECT_DIR$/_site/2014/01/02/最有趣的时光/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page2/index.html" afterPath="$PROJECT_DIR$/_site/page2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/page3/index.html" afterPath="$PROJECT_DIR$/_site/page3/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/resume/index.html" afterPath="$PROJECT_DIR$/_site/resume/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/index.html" afterPath="$PROJECT_DIR$/resume/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/introduction.html" afterPath="$PROJECT_DIR$/_includes/introduction.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/resume.html.bak" afterPath="$PROJECT_DIR$/_site/resume.html.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zhoufan2013.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +91,62 @@
     <favorites_list name="zhoufan2013.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="resume.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/resume.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="17" selection-start="174" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="96" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.35416666" vertical-offset="255" max-vertical-offset="1770">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume-guide.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/resume-guide.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="86" selection-start="48" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="introduction.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/introduction.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="694" selection-end="694" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="240" column="25" selection-start="18702" selection-end="18702" vertical-scroll-proportion="0.0" vertical-offset="3600" max-vertical-offset="11340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -81,8 +159,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resume/index.html" />
         <option value="$PROJECT_DIR$/atom.xml" />
+        <option value="$PROJECT_DIR$/_includes/contact.html" />
+        <option value="$PROJECT_DIR$/resume/index.html" />
+        <option value="$PROJECT_DIR$/_includes/introduction.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
       </list>
     </option>
   </component>
@@ -161,25 +242,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zhoufan2013.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zhoufan2013.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
+              <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,8 +287,14 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="introduction&#10;nil" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Work/Telenor/upc2.x" />
+    <property name="SearchEverywhereHistory" value="in&#10;introduction&#10;nil" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_layouts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -234,12 +303,25 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -283,21 +365,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -317,6 +384,128 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <list size="0" />
@@ -349,7 +538,10 @@
       <created>1420446808590</created>
       <updated>1420446808590</updated>
       <workItem from="1420446811863" duration="2058000" />
-      <workItem from="1426082842237" duration="129000" />
+      <workItem from="1426082842237" duration="1008000" />
+      <workItem from="1426200930463" duration="6972000" />
+      <workItem from="1426474169293" duration="83000" />
+      <workItem from="1426484298443" duration="1374000" />
     </task>
     <task id="LOCAL-00001" summary="更新简历&#10;">
       <created>1420447121593</created>
@@ -363,11 +555,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2187000" />
+    <option name="totallyTimeSpent" value="11495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -387,7 +579,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19799139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19799139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -416,22 +608,156 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_data/resume.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="174" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="23" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/resume-guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="86" selection-start="48" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="25" selection-start="18702" selection-end="18702" vertical-scroll-proportion="0.0" vertical-offset="3600" max-vertical-offset="11340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/resume.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="174" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="23" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/resume-guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="86" selection-start="48" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="25" selection-start="18702" selection-end="18702" vertical-scroll-proportion="0.0" vertical-offset="3343" max-vertical-offset="11340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/resume.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="174" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/experiences.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/resume-guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="86" selection-start="48" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/googleAnalytics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="47" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/disqus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/disqus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="287" selection-end="287" vertical-scroll-proportion="0.099075295" vertical-offset="0" max-vertical-offset="757" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="53" selection-start="345" selection-end="345" vertical-scroll-proportion="0.32876712" vertical-offset="0" max-vertical-offset="730" />
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="53" selection-start="345" selection-end="345" vertical-scroll-proportion="0.32876712" vertical-offset="0" max-vertical-offset="730" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
@@ -439,24 +765,12 @@
         <state line="9" column="74" selection-start="432" selection-end="432" vertical-scroll-proportion="0.18417463" vertical-offset="0" max-vertical-offset="733" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="64" selection-start="567" selection-end="567" vertical-scroll-proportion="0.18417463" vertical-offset="0" max-vertical-offset="733" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resume/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="1" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.22916667" vertical-offset="255" max-vertical-offset="11340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/resume.html.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5535" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5535" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -464,36 +778,74 @@
         <state line="77" column="0" selection-start="3054" selection-end="3054" vertical-scroll-proportion="0.6041667" vertical-offset="720" max-vertical-offset="1440" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/resume-guide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="757" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/resume.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="174" selection-end="184" vertical-scroll-proportion="0.17833553" vertical-offset="0" max-vertical-offset="757" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="184" selection-end="184" vertical-scroll-proportion="0.10231923" vertical-offset="0" max-vertical-offset="733" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/googleAnalytics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="401" selection-end="401" vertical-scroll-proportion="0.12278308" vertical-offset="0" max-vertical-offset="733" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="520" selection-end="520" vertical-scroll-proportion="0.27741084" vertical-offset="0" max-vertical-offset="757">
-          <folding />
-        </state>
+        <state line="14" column="10" selection-start="520" selection-end="520" vertical-scroll-proportion="0.27741084" vertical-offset="0" max-vertical-offset="757" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/resume/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.580333" vertical-offset="6195" max-vertical-offset="11340">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.580333" vertical-offset="6195" max-vertical-offset="11340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/experiences.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/disqus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/googleAnalytics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="47" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/resume-guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="86" selection-start="48" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/resume.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="174" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="25" selection-start="18702" selection-end="18702" vertical-scroll-proportion="0.0" vertical-offset="3343" max-vertical-offset="11340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="694" selection-end="694" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="96" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.35416666" vertical-offset="255" max-vertical-offset="1770">
           <folding />
         </state>
       </provider>
